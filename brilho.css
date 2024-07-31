@@ -1,0 +1,440 @@
+body{
+    background-image: linear-gradient(#1E2352 70%, #06436D);
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+@font-face {
+    font-family: Lostar;
+    src: url(Lostar.ttf);
+
+    font-family: Inter;
+    src: url(Inter.ttf);
+}
+
+img{
+    border-radius: 25px;
+}
+
+header{
+    display: flex;
+    align-items: flex-start;
+    justify-content:  flex-end;
+    flex-direction: row-reverse;
+    
+}
+
+.botaocriar{
+    background-color: rgba(68, 207, 13, 0);
+    border-color: rgba(0, 255, 255, 0);
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+button img{
+    width: 100%;
+    height: 20%;
+} 
+
+.botaocriar:hover{ 
+    background-color: rgba(6, 2, 22, 0.493);
+    transition-duration: 0.4s;
+}
+
+
+
+h1{
+    color: #FFA800;
+    display: flex;
+    justify-content: center;
+    font-family: "Lostar";
+    font-size: 120px;
+    letter-spacing: 18px;
+    margin-bottom: 1.5%;
+}
+
+.videoavanco{
+    width: 95vw;
+    height: 79vh;
+    border-radius: 25px;
+    border-color: transparent;
+}
+
+.video{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10;
+}
+
+
+
+
+.descriçãodoclipe{
+    display: flex;
+    margin-top: 10%;
+    height: 60vh;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.descriçãodoclipe img{
+    margin-top: 5.2%;
+    margin-right: 2%; 
+    width: 42%;
+    height: 46vh;
+}
+
+.descriçãodoclipe h2{
+    margin: 0%;
+    height: 10%;
+    font-family: "Inter", sans-serif;
+    font-size: 330%;
+    padding-left: 4%;
+    color: #FFA800;
+}
+
+.descriçãodoclipe p{
+    margin: 0%;
+    padding-left: 4%;
+    padding-right: 15%;
+    padding-top: 5%;
+    font-family: "Inter", sans-serif;
+    font-size: 150%;
+    color: aliceblue;
+}
+
+.descrição{
+    display:flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.descricãoartistaint 
+{
+    font-size: 22px;
+
+    width: 30vw;
+
+}
+
+
+
+.artistas{
+    display: flex;
+    height: 150vh;
+}
+
+.artista1{
+
+    margin-bottom: 25%;
+}
+
+.fotoartista{
+    display: flex;
+    flex-direction: column;
+    width: 20vw; 
+    padding-top: 4%;
+    padding-left: 0.1%;
+}
+
+h4{
+    display: flex;
+    font-family: "Inter", sans-serif;
+    font-size: 300%;
+    color: #FFA800;
+    align-items: center;
+    justify-content: center;
+    padding-right: 20%;
+}
+
+.fotoartista img{
+    height: 59vh;
+    width: 16vw;
+}
+
+.descriçãoartista{
+    display: flex;
+    flex-direction: column;
+    font-size: 100%;
+    padding-top: 12%;
+    padding-left: 3%;
+    width: 30vw;
+}
+
+.descriçãoartista h3{
+    color:  #FFA800;
+    font-size: 250%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 30%;
+}
+
+.descriçãoartista1{
+    margin-top: 0%;
+    margin: 0%;
+    margin-top: 7%;
+}
+
+.descriçãoartista2{
+    margin: 0%;
+    padding-top: 30%;
+}
+
+.descriçãoartista2 p{
+    font-weight: 200;
+    height: 20vh;
+    margin-bottom: 0%;
+}
+
+.p p
+{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 200;
+    
+}
+
+.p{
+   
+    width: 40vw;
+    font-size: 22px;
+}
+
+.descriçãoartista p{
+    color: aliceblue;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.mulheres{
+    margin-top: 16%;
+    width: 40vw;
+    height: 30vw;
+}
+
+.produção
+{
+    color: #FFA800;
+    display: flex;
+    justify-content: center;
+    font-family: "Lostar";
+    font-size: 120px;
+    letter-spacing: 18px;
+    margin-bottom: 1.5%;
+}
+
+.nomes
+{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: aliceblue;
+}
+
+span
+{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.tudinhossel .no-transition
+{
+    scroll-behavior:auto;
+}
+
+.tudinhossel .dragging
+{
+    scroll-snap-type: none;
+    scroll-behavior: auto;
+}
+
+.tudinhossel .dragging .card 
+{
+    cursor: grab;
+    user-select: none;
+}
+
+.card .imarrousel
+{
+    
+    width: 18vw;
+    height: 18vw;
+    border-radius: 50%;
+}
+
+.card .imarrousel img
+{
+    width: 10vw;
+    height: 10vw;
+    object-fit: cover;
+    border-radius: 50% ;
+
+}
+
+.card h2
+{
+    font-weight: 500;
+    font-size: 1.56rem;
+    margin: 30px 0 5px;
+}
+
+.card span
+{
+    color: aliceblue;
+}
+
+.tudossel
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height:  100vh;
+    padding: 0 35px;
+}
+
+.tudinhossel :where(.card, .imarrousel )
+{
+    display: flex;
+    align-items: center;
+ justify-content: center;
+}
+
+.tudinhossel .card
+{
+    scroll-snap-align: start;
+ list-style: none;
+ height: 342px;
+ display: flex;
+ cursor: pointer;
+ padding-bottom: 15px;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+}
+
+.tudinhossel
+{
+    max-width: 1100px;
+    width: 100%;
+    position: relative;
+}
+
+.tudinhossel i
+{
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    font-size: 1.25rem;
+    transform: translateY(-50%);
+    color: aliceblue;
+    
+}
+
+.carrouselprod::-webkit-scrollbar
+{
+    display: none;
+}
+
+
+.tudinhossel i:first-child
+{
+    left: -22px;
+}
+
+.tudinhossel i:last-child
+{
+    right: -22px;
+}
+
+.tudinhossel .carrouselprod
+{
+    display: flex;
+    grid-auto-flow: column ;
+    grid-auto-columns: calc((100% / 3) - 12px);
+    gap: 16px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    scrollbar-width: 0;
+}
+
+.MakingOf{
+display: flex;
+justify-content:space-around;
+}
+
+.MakingOf p{
+width: 30vw;
+font-size: 32px;
+color:aliceblue;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.MakingOf video {
+width: 60vw;
+}
+
+.imagensMakingOF{
+    width: 90vw;
+    height: 15vw;
+    margin-top: 15vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.imagensMakingOF img{
+    width: 25vw;
+}
+
+.diarioDeBordo{
+    margin-top: 15vh;
+    
+}
+
+.diarioDeBordo h2{
+    color: #FFA800;
+    font-size: 62px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.diarioDeBordo .elementos{
+    display: flex;
+    justify-content: space-around;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.diarioDeBordo .elemento {
+    width: 30vw;
+    margin-right: 2vw;
+}
+
+.diarioDeBordo h3{
+    color: #FFA800;
+    font-size: 40px;
+    text-align: center;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.diarioDeBordo p{
+    color: aliceblue;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 900px) 
+{
+    .tudinhossel .carrouselprod 
+    {
+        grid-auto-columns: calc((100% / 2) - 9px);
+    }
+}
+
+@media screen and (max-width: 600px) 
+{
+    .tudinhossel .carrouselprod 
+    {
+        grid-auto-columns: 100%;
+    }
+}
